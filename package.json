@@ -1,36 +1,34 @@
 {
-  "description": "A foundation for scalable desktop apps",
+  "description": "Creates random passwords based on parameters set by you",
   "keywords": [
     "electron",
-    "boilerplate",
-    "react",
     "typescript",
+    "react",
+    "password-generator",
     "ts",
-    "sass",
-    "webpack",
-    "hot",
-    "reload"
+    "password",
+    "generator",
+    "password-strength",
+    "password-safety",
+    "electron-app",
+    "electron-builder",
+    "electron-webpack"
   ],
-  "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
+  "homepage": "https://vaporjawn.github.io/",
   "bugs": {
-    "url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues"
+    "url": "https://github.com/Vaporjawn/Password-Generator/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
+    "url": "git@github.com:Vaporjawn/Password-Generator.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
+    "name": "Victor Williams",
+    "email": "victor.williams.dev@gmail.com",
+    "url": "https://vaporjawn.github.io/"
   },
   "contributors": [
-    {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
-    }
   ],
   "main": "./src/main/main.ts",
   "scripts": {
@@ -245,12 +243,9 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "Vaporjawn",
+      "repo": "Password Generator"
     }
-  },
-  "collective": {
-    "url": "https://opencollective.com/electron-react-boilerplate-594"
   },
   "devEngines": {
     "node": ">=14.x",
