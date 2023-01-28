@@ -1,0 +1,24 @@
+.Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: #000000;
+    border-top: 1px solid #ffffff;
+    padding: 15px;
+    text-align: right;
+}
+
+.GitHubLink {
+    text-decoration: none;
+    /* move to center */
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+  }
+
+.GitHubLink:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    background-color: rgba(29, 11, 11, 0);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.358);
+}
+
+.HeaderTitle {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}

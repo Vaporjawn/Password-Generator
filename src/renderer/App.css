@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.GenerateButtonContainer {
+.ButtonContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,13 +25,8 @@
   justify-content: center;
   align-items: center;
   margin: 20px 0;
-}
+  margin-left: 20px;
 
-.CopyButtonContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
 }
 
 .CopyButtonVisible {
@@ -39,13 +34,65 @@
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+  margin-right: 20px;
 }
 
 .CopyButtonHidden {
   display: none;
 }
 
+.PasswordTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
 .PasswordText {
   font-size: 2rem;
   margin: 20px 0;
+}
+
+.PasswordLength {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  margin-left: 0px;
+  margin-right: 70%;
+
+}
+
+.PasswordLengthSliderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  width: 500px;
+
+}
+
+.PasswordOptionsContainer {
+  flex-direction: column;
+  margin: 20px 0;
+  margin-left: 70%;
+  margin-top: -20%;
+  margin-right: 0px;
+  width: 200px;
+}
+
+.PasswordOptions {
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  margin-right: 20px;
+}
+
+.Checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.CheckboxLabel {
+  font-size: large;
 }
