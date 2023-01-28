@@ -20,21 +20,24 @@
   margin: 20px 0;
 }
 
+.ButtonText {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:30px;
+  font-weight: 500;
+}
+
 .GenerateButton {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
-  margin-left: 20px;
-
+  margin-left: auto;
 }
 
 .CopyButtonVisible {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
-  margin-right: 20px;
 }
 
 .CopyButtonHidden {
@@ -57,10 +60,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 0;
   margin-left: 0px;
-  margin-right: 70%;
+  position: absolute
+}
 
+.LengthInput {
+  font-size: 30px;
+  width: 70px;
 }
 
 .PasswordLengthSliderContainer {
@@ -69,14 +75,43 @@
   align-items: center;
   margin: 20px 0;
   width: 500px;
-
+  margin-bottom: -16%;
+  margin-top: 11%;
 }
+
+.PasswordLengthSlider {
+  -webkit-appearance: none;
+  width: 40%;
+  height: 15px;
+  background:white;
+  outline: none;
+  border: 5px solid black;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  margin-left: -30px;
+  background: white;
+  cursor: pointer;
+}
+
+
+.PasswordLengthSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 40px;
+  background: white;
+  cursor: pointer;
+  border: 5px solid black;
+  border-radius: 4px;
+}
+
 
 .PasswordOptionsContainer {
   flex-direction: column;
   margin: 20px 0;
   margin-left: 70%;
-  margin-top: -20%;
+  margin-top: -10%;
   margin-right: 0px;
   width: 200px;
 }
@@ -94,5 +129,13 @@
 }
 
 .CheckboxLabel {
-  font-size: large;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 5px;
+}
+
+.LengthLabel {
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
 }

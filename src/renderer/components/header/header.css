@@ -12,5 +12,6 @@
 .HeaderTitle {
     font-size: 40px;
     font-weight: 700;
-    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0)
 }

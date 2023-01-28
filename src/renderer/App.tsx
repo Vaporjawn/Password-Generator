@@ -39,11 +39,14 @@ const Main = () => {
           />
         </div>
         <div className="PasswordLength">
-          <label htmlFor="length">Length</label>
+          <label htmlFor="length" className="LengthLabel">
+            Length
+          </label>
           <input
             type="number"
             id="lengthInput"
             name="lengthInput"
+            className="LengthInput"
             value={length}
             onChange={(e) => setLength(parseInt(e.target.value, 10))}
           />
@@ -105,9 +108,11 @@ const Main = () => {
           </div>
         </div>
         <div className="ButtonContainer">
-          <button className={copyButtonVisibility}>Copy</button>
+          <button className={copyButtonVisibility}>
+            <div className="ButtonText">Copy</div>
+          </button>
           <button onClick={() => generateClicked()} className="GenerateButton">
-            {generateButtonText}
+            <div className="ButtonText">{generateButtonText}</div>
           </button>
         </div>
       </div>
